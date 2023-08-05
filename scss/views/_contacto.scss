@@ -1,0 +1,281 @@
+/*Contacto*/
+
+/*Body (Pagina)*/
+body{
+    background-color: black;
+    /* Header (Encabezado)*/
+    header {
+        background-color: rgb(122, 194, 8);
+    
+        nav.navbar{
+        padding: 0%;
+        display: flex;
+        align-items: center;
+        @media (min-width: 992px) {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        }
+    
+        div.containerfluid{
+            display: flex;
+            flex-wrap: inherit;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            margin-right: auto;
+            margin-left: auto;
+    
+        a.navbar-brand{
+            text-decoration: none;
+            white-space: nowrap;
+        img.logo{
+            height: 100px;
+            width: 100px;
+            vertical-align: middle;
+        }
+        }
+        button.navbar-toggler{
+            line-height: 1;
+            background-color: transparent;
+            @media (min-width: 992px) {
+            display: none;
+            }
+            span.navbar-toggler-icon{
+            display: inline-block;
+            width: 1.5em;
+            height: 1.5em;
+            vertical-align: middle;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100%;
+            }
+    
+    }
+    div.collapsenavbar-collapse{
+        flex-grow: 1;
+        align-items: center;
+        @media (min-width: 992px) {
+        display: flex!important;
+        flex-basis: auto;
+    }
+    ul.navbar-nav{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        padding-left: 2rem
+        }
+        list-style: none;
+        font-size: 20px;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        margin-bottom: 0.5rem!important;
+        margin-right: auto!important;
+        @media (min-width: 992px) {
+        flex-direction: row;
+    }
+    @media (min-width: 992px) {
+        margin-bottom: 0!important;
+    }
+    li.nav-item{
+        display: list-item;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        a.nav-link :active{
+        display: block;
+        text-decoration: none;
+        background: 0 0;
+        border: 0;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+        text-decoration: underline;
+        cursor: pointer;
+        @media (min-width: 992px) {
+        padding-right: var(--bs-navbar-nav-link-padding-x);
+        padding-left: var(--bs-navbar-nav-link-padding-x);
+    }
+        }
+    
+    }
+    li.nav-item{
+    position: relative;
+    a.nav-link{
+        white-space: nowrap;
+        cursor: pointer;
+        &after{
+        display: inline-block;
+        margin-left: 0.255em;
+        vertical-align: 0.255em;
+        content: "";
+        border-top: 0.3em solid;
+        border-right: 0.3em solid transparent;
+        border-bottom: 0;
+        border-left: 0.3em solid transparent;
+        }
+    }
+    }
+    }
+    }
+    form.d-flex{
+        display: flex!important;
+        display: block;
+        margin-top: 0em;
+        input.form-control m2-2{
+        font-size: 20px;
+        margin-right: 0.5rem!important;
+        display: block;
+        width: 100%;
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        background-clip: padding-box;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        outline-offset: -2px;
+        }
+        button.btn-outline-success{
+        cursor: pointer;
+        font-size: 20px;
+        .btn{
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        vertical-align: middle;
+        cursor: pointer;
+        user-select: none;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        }
+        }
+    }
+    }
+    }
+    /*Fin de Encabezado*/
+
+    /* Main (Principal)*/
+    .formContainer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 80vh;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .form{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        height: 70%;
+        width: 40%;
+        border-radius: 20px;
+        box-shadow: 0px 0px 10px white;
+        background-color: rgb(8, 110, 22);
+    }
+    
+    .inputForm{
+        height:80%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .titleForm{
+        font-family: "Times New Roman";
+        font-size:40px;
+        text-shadow: 2px 2px 10px green;
+        font-style:900;
+        color:white;
+    }
+    
+    .subtitleForm{
+        font-family: "Times New Roman";
+        font-size: 20px;
+        text-shadow: 0px 0px green;
+        font-weight: 900;
+        color:white
+    }
+    
+    .containerSubtitle{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .labelForm{
+        font-size:20px;
+        font-weight: 800;
+        text-shadow: 0px 0px 20px rgb(255, 255, 255);
+    }
+    
+    .inputStyle{
+        width: 45%;
+        border-radius: 10px;
+        border: 2px solid white;
+        height: 30px;
+        display: flex;
+    }
+    
+    .inputFormCheck{
+        display: flex;
+        align-items: center;
+        width: 40%;
+        margin-bottom:30px;
+    }
+    
+    .labelFormCheck{
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    
+    .buttonSubmit{
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 75px;
+        height: 35px;
+        font-size:20px;
+    }
+    
+    .buttonSubmit:hover{
+        background-color: greenyellow;
+        font-weight: 900;
+        width: 90px;
+        height: 40px;
+    }
+/*Fin de Principal*/
+
+/*Footer (Pie de Pagina)*/
+footer {
+    background-color: rgb(122, 194, 8);
+    color: rgb(233, 227, 227);
+}
+
+.logotwitter {
+    width: 30px;
+    height: 30px;
+}
+
+.logoinstagram {
+    width: 30px;
+    height: 30px;
+}
+
+.logofacebook {
+    width: 30px;
+    height: 30px;
+}
+
+/*Fin de Pie de Pagina*/
+}
+/*Fin de Pagina*/
+
+
+
+

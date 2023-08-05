@@ -1,0 +1,34 @@
+/*Estilos.scss*/
+
+/*Utilities*/
+@import 'utilities/variables';
+@import 'utilities/functions';
+@import 'utilities/mixins';
+
+/*Base*/
+@import 'base/reset';
+@import 'base/typo';
+
+/*Components*/
+@import 'components/buttons';
+@import 'components/jumbo';
+
+/*Layout*/
+@import 'layout/navigation';
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/forms';
+
+/*Views*/
+@import 'views/inicio';
+@import 'views/entrenamiento';
+@import 'views/nutricion';
+@import 'views/contacto';
+
+/*Themes*/
+@import 'themes/theme';
+@import 'themes/admin';
+
+/*Vendors*/
+@import 'vendors/bootstrap';
